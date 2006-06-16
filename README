@@ -1,0 +1,55 @@
+png2ico
+-------------------------------------------
+PNG graphics to Windows ICO icon resource converter
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  libpng12-1.2.8-2
+
+Build requirements:
+  cygwin-1.5.19-4
+  binutils-20050610-1
+  cygport-0.1.92-1
+  gcc-g++-3.4.4-1
+  make-3.80-1
+  libpng12-devel-1.2.8-2
+
+Canonical homepage:
+  http://www.winterdrache.de/freeware/png2ico/
+
+-------------------------------------------
+
+Build instructions:
+  unpack png2ico-20021208-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./png2ico-20021208-X.cygport all
+
+This will create:
+  /usr/src/png2ico-20021208-X-src.tar.bz2
+  /usr/src/png2ico-20021208-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/png2ico.exe
+  /usr/share/doc/Cygwin/png2ico-20021208.README
+  /usr/share/doc/png2ico-20021208/LICENSE
+  /usr/share/doc/png2ico-20021208/README
+  /usr/share/doc/png2ico-20021208/README.unix
+  /usr/share/doc/png2ico-20021208/bmp.txt
+  /usr/share/man/man1/png2ico.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 20021208-1 -----
+Initial release for Cygwin.
+
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

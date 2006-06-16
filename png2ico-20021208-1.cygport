@@ -1,0 +1,19 @@
+DESCRIPTION="PNG to ICO graphics converter"
+HOMEPAGE="http://www.winterdrache.de/freeware/png2ico/"
+SRC_URI="http://www.winterdrache.de/freeware/png2ico/data/${PN}-src-${PV:0:4}-${PV:4:2}-${PV:6:2}.tar.gz"
+SRC_DIR=${PN}
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake
+}
+
+src_install() {
+	cd ${B}
+	dobin png2ico.exe
+
+	cd ${S}
+	dodoc README.unix doc/bmp.txt
+	doman doc/png2ico.1
+}

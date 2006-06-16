@@ -1,0 +1,4 @@
+category: Graphics
+requires: cygwin libpng12
+sdesc: "PNG graphics to Windows ICO icon resource converter"
+ldesc: "PNG graphics to Windows ICO icon resource converter"
