@@ -1,4 +1,0 @@
-category: Graphics
-requires: libgcc1 libpng14 libstdc++6
-sdesc: "PNG graphics to Windows ICO icon resource converter"
-ldesc: "PNG graphics to Windows ICO icon resource converter"
