@@ -1,13 +1,14 @@
 NAME="png2ico"
 VERSION=20021208
-RELEASE=3
+RELEASE=4
 CATEGORY="Graphics"
 SUMMARY="PNG to ICO graphics converter"
 DESCRIPTION="Converts PNG files to Windows icon resource files. If you're
 looking for a program to create a favicon.ico for your website, look no further."
 HOMEPAGE="http://www.winterdrache.de/freeware/png2ico/"
-SRC_URI="http://www.winterdrache.de/freeware/png2ico/data/${PN}-src-${PV:0:4}-${PV:4:2}-${PV:6:2}.tar.gz"
-SRC_DIR=${PN}
+SRC_URI="http://www.winterdrache.de/freeware/png2ico/data/${NAME}-src-${VERSION:0:4}-${VERSION:4:2}-${VERSION:6:2}.tar.gz"
+SRC_DIR=${NAME}
+PATCH_URI="20021208-gcc48.patch"
 
 src_compile() {
 	lndirs
