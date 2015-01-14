@@ -1,0 +1,10 @@
+--- origsrc/png2ico/png2ico.cpp	2002-12-07 16:37:58.000000000 -0600
++++ src/png2ico/png2ico.cpp	2015-01-13 22:26:38.747597300 -0600
+@@ -33,6 +33,7 @@ Notes about transparent and inverted pix
+ 
+ 
+ #include <cstdio>
++#include <cstring>
+ #include <vector>
+ #include <climits>
+ 
